@@ -119,7 +119,7 @@ function ENT:Think()
 		self.curTemp = self:GetNW2Float("Temperature")
 		self:SetNW2Float("Temperature", self.curTemp + self.TemperatureIncrementPerPrint)
 
-		if self.ResetSoundPerPrint then
+		if self.ResetSoundPerPrint and not self:GetNW2Bool("IsSilent") then
 			self.sound:Stop()
 			self.sound:PlayEx(1, 100)
 		end
