@@ -21,7 +21,7 @@ function ENT:Initialize()
 	self:SetNW2Bool("HasCooler", false)
 	self:SetNW2Bool("HasRecharger", false)
 
-	self.timer = 0
+	self.timer = CurTime()
 
 	local phys = self:GetPhysicsObject()
 	if phys:IsValid() then
