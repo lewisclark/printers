@@ -11,3 +11,4 @@ ENT.TemperatureIncrementPerPrint = 0.05
 ENT.BatteryDecrementPerPrint = 0.11
 ENT.PrinterHealth = 100
 ENT.PrinterPrice = 6000
+ENT.ResetSoundPerPrint = false -- Should the printer sound be re-looped once the printer generates some money?

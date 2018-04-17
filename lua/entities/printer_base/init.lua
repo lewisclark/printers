@@ -118,6 +118,11 @@ function ENT:Think()
 
 		self.curTemp = self:GetNW2Float("Temperature")
 		self:SetNW2Float("Temperature", self.curTemp + self.TemperatureIncrementPerPrint)
+
+		if self.ResetSoundPerPrint then
+			self.sound:Stop()
+			self.sound:PlayEx(1, 100)
+		end
 	end
 
 	return true
