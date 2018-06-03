@@ -3,4 +3,4 @@ ENT.Base = "base_gmodentity"
 
 ENT.PrintName = "Printer Solar Power Addon"
 
-ENT.Spawnable = false
+ENT.Spawnable = true

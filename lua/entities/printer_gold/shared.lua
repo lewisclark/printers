@@ -1,7 +1,7 @@
 ENT.Type = "anim"
 ENT.Base = "printer_base"
 ENT.PrintName = "Gold Printer"
-ENT.Spawnable = false
+ENT.Spawnable = true
 
 ENT.PrinterColor = Color(80, 80, 80, 255)
 ENT.PrintTime = 0.1

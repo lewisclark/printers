@@ -3,4 +3,4 @@ ENT.Base = "base_gmodentity"
 
 ENT.PrintName = "Silent Printer Addon"
 
-ENT.Spawnable = false
+ENT.Spawnable = true
